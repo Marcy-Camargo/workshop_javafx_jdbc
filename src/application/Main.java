@@ -10,7 +10,7 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 	
-	private static Scene mainScene;
+	private static Scene mainScene;//guardei a referência para a cena em um atributo
 	
 	@Override
 	public void start(Stage primaryStage) {
@@ -30,7 +30,7 @@ public class Main extends Application {
 		}
 	}
 	
-	public static Scene getMainScene() {
+	public static Scene getMainScene() {//método para pegar a referência para a cena
 		return mainScene;
 	}
 }
